@@ -1,3 +1,3 @@
 # IOT
 
-IOT Practicals. 
+IOT Practicals in Python. 
