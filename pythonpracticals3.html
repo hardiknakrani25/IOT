@@ -1,17 +1,97 @@
-<link rel="shortcut icon" type="image/png" href="/assets/images/favicone.png"/>
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicone.png" />
 
-<script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+  </script>
+<script>
+  $(function () {
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+  });
 </script>
-<script> 
-$(function(){
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
-});
-</script> 
 <div id="header"></div>
-    <div class="container">
+<div class="container">
+  <section id="main_content">
 
-<div id="footer"></div>
+
+
+    <p><strong>Python 3</strong> <del>Python 2</del> </p>
+    <hr>
+    <ul>
+      <li> <a href="#1">To implement a quick sort algorithm in python.</a></li>
+      <li><a href="#2">To implement doubly linked list algorithm in python.</a></li>
+      <li> <a href="#3">To implement tower of Hanoi in python.</a>
+      </li>
+
+    </ul>
+
+
+
+
+
+    <hr>
+
+    <div id="1">
+      <h2 id="header-2">To implement a quick sort algorithm in python.</h2>
+
+      <script src="https://gist.github.com/hardiknakrani25/44c66a4d913f8046db8e69976ab38aed.js"></script>
+      <hr>
+
+      <ul>
+        <li> python3 file.py </li>
+        <ul>
+          <li>
+            Enter total no : 3
+            <br>
+            no : 25
+            <br>
+            no : -25
+            <br>
+            no : 5
+            <br>
+            Numbers are : [25, -25, 5]
+            <br>
+            Sorted numbers are : [-25, 5, 25]
+          </li>
+        </ul>
+      </ul>
+      <hr>
+    </div>
+
+
+    <br>
+    <br>
+
+    <div id="2">
+      <h2 id="header-2">To implement doubly linked list algorithm in python.</h2>
+
+      <script src="https://gist.github.com/hardiknakrani25/1eeee072b89eb463b8fa7dae923e68a8.js"></script>
+      <hr>
+
+      <ul>
+      <img src="/assets/images/dl.png" alt="doubly linkedlist">
+      </ul>
+      <hr>
+
+    </div>
+
+
+
+
+    <br>
+    <br>
+    <div id="3">
+      <h2 id="header-2">To implement tower of Hanoi in python.</h2>
+
+      <script src="https://gist.github.com/hardiknakrani25/a7b19ffee373c25eb8bc96175ce59ace.js"></script>      <hr>
+
+      <ul>
+        <img src="/assets/images/th.png" alt="">
+      </ul>
+      <hr>
+
+    </div>
+
+
+
+    <div id="footer"></div>
