@@ -1,7 +1,4 @@
 
-
-
-
 nterms = int(input("How many times? "))
 
 n1 = 0
@@ -14,9 +11,9 @@ elif nterms == 1:
    print("Fibonacci sequence upto",nterms,":")
    print(n1)
 else:
-   print "Fibonacci sequence upto",nterms,":"
+   print ("Fibonacci sequence upto",nterms,":")
    while count < nterms:
-       print n1
+       print (n1)
        nth = n1 + n2
        n1 = n2
        n2 = nth
