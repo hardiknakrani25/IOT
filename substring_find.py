@@ -1,5 +1,5 @@
-string = raw_input('Enter String : ')
-substring = raw_input('Search String : ')
+string = input('Enter String : ')
+substring = input('Search String : ')
  
 if substring in string:
 	print ("Your substring was found!")
